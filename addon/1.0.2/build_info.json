@@ -1,0 +1,116 @@
+{
+	"robot"						: "2.0.0",
+
+	"linux":
+	{
+		"platform"				: "ubuntu",
+		"platformVersion"		: "12.04",
+		"compiler"				: "g++",
+		"compilerVersion"		: "5.2.1",
+
+		"binaries":
+		{
+			"14":
+			{
+				"nodeVersion"	: "0.12.13",
+				"x64"			: "http://node.getrobot.net/addon/1.0.2/linux-x64-14.node",
+				"ia32"			: "http://node.getrobot.net/addon/1.0.2/linux-ia32-14.node"
+			},
+
+			"46":
+			{
+				"nodeVersion"	: "4.4.3",
+				"x64"			: "http://node.getrobot.net/addon/1.0.2/linux-x64-46.node",
+				"ia32"			: "http://node.getrobot.net/addon/1.0.2/linux-ia32-46.node"
+			},
+
+			"47":
+			{
+				"nodeVersion"	: "5.11.0",
+				"x64"			: "http://node.getrobot.net/addon/1.0.2/linux-x64-47.node",
+				"ia32"			: "http://node.getrobot.net/addon/1.0.2/linux-ia32-47.node"
+			},
+
+			"48":
+			{
+				"nodeVersion"	: "6.0.0",
+				"x64"			: "http://node.getrobot.net/addon/1.0.2/linux-x64-48.node",
+				"ia32"			: "http://node.getrobot.net/addon/1.0.2/linux-ia32-48.node"
+			}
+		}
+	},
+
+	"mac":
+	{
+		"platform"				: "El Capitan",
+		"platformVersion"		: "10.11.4",
+		"compiler"				: "clang++",
+		"compilerVersion"		: "7.3.0",
+
+		"binaries":
+		{
+			"14":
+			{
+				"nodeVersion"	: "0.12.13",
+				"x64"			: "http://node.getrobot.net/addon/1.0.2/darwin-x64-14.node"
+			},
+
+			"46":
+			{
+				"nodeVersion"	: "4.4.3",
+				"x64"			: "http://node.getrobot.net/addon/1.0.2/darwin-x64-46.node"
+			},
+
+			"47":
+			{
+				"nodeVersion"	: "5.11.0",
+				"x64"			: "http://node.getrobot.net/addon/1.0.2/darwin-x64-47.node"
+			},
+
+			"48":
+			{
+				"nodeVersion"	: "6.0.0",
+				"x64"			: "http://node.getrobot.net/addon/1.0.2/darwin-x64-48.node"
+			}
+		}
+	},
+
+	"win":
+	{
+		"platform"				: "7",
+		"platformVersion"		: "6.1.7601",
+		"compiler"				: "MSVC",
+		"compilerVersion"		: "14.0",
+
+		"binaries":
+		{
+			"14":
+			{
+				"nodeVersion"	: "0.12.13",
+				"x64"			: "http://node.getrobot.net/addon/1.0.2/win32-x64-14.node",
+				"ia32"			: "http://node.getrobot.net/addon/1.0.2/win32-ia32-14.node"
+			},
+
+			"46":
+			{
+				"nodeVersion"	: "4.4.3",
+				"x64"			: "http://node.getrobot.net/addon/1.0.2/win32-x64-46.node",
+				"ia32"			: "http://node.getrobot.net/addon/1.0.2/win32-ia32-46.node"
+			},
+
+			"47":
+			{
+				"nodeVersion"	: "5.11.0",
+				"x64"			: "http://node.getrobot.net/addon/1.0.2/win32-x64-47.node",
+				"ia32"			: "http://node.getrobot.net/addon/1.0.2/win32-ia32-47.node"
+			},
+
+			"48":
+			{
+				"nodeVersion"	: "6.0.0",
+				"x64"			: "http://node.getrobot.net/addon/1.0.2/win32-x64-48.node",
+				"ia32"			: "http://node.getrobot.net/addon/1.0.2/win32-ia32-48.node"
+			}
+		}
+	}
+}
