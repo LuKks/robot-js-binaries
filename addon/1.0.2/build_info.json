@@ -3,7 +3,7 @@
 
 	"linux":
 	{
-		"platform"				: "ubuntu",
+		"platform"				: "Ubuntu",
 		"platformVersion"		: "12.04",
 		"compiler"				: "g++",
 		"compilerVersion"		: "5.2.1",
@@ -40,7 +40,7 @@
 		}
 	},
 
-	"mac":
+	"darwin":
 	{
 		"platform"				: "El Capitan",
 		"platformVersion"		: "10.11.4",
@@ -75,9 +75,9 @@
 		}
 	},
 
-	"win":
+	"win32":
 	{
-		"platform"				: "7",
+		"platform"				: "Windows 7",
 		"platformVersion"		: "6.1.7601",
 		"compiler"				: "MSVC",
 		"compilerVersion"		: "14.0",
