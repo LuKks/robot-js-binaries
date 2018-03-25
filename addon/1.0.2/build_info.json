@@ -4,6 +4,7 @@
 	"linux":
 	{
 		"platform"				: "Ubuntu",
+		"platformCodename"		: "Precise",
 		"platformVersion"		: "12.04",
 		"compiler"				: "g++",
 		"compilerVersion"		: "5.2.1",
@@ -42,7 +43,8 @@
 
 	"darwin":
 	{
-		"platform"				: "El Capitan",
+		"platform"				: "macOS",
+		"platformCodename"		: "El Capitan",
 		"platformVersion"		: "10.11.4",
 		"compiler"				: "clang++",
 		"compilerVersion"		: "7.3.0",
