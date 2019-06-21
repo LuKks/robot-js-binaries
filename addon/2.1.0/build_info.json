@@ -1,0 +1,56 @@
+{
+	"robot"						: "2.1.0",
+
+	"linux":
+	{
+		"platform"				: "Ubuntu",
+		"platformCodename"		: "Precise",
+		"platformVersion"		: "12.04",
+		"compiler"				: "g++",
+		"compilerVersion"		: "6.2.0",
+
+		"platformArm"			: "Raspbian",
+		"platformArmCodename"	: "Stretch",
+		"platformArmVersion"	: "9.4",
+		"compilerArm"			: "g++",
+		"compilerArmVersion"	: "7.2.0",
+
+		"binaries":
+		{
+			"64":
+			{
+				"nodeVersion"	: "10.16.0",
+				"arm"			: "",
+				"x64"			: "https://github.com/LuKks/robot-js-binaries/raw/gh-pages/addon/2.0.0/linux-x64-64.node",
+				"ia32"		: ""
+			}
+		}
+	},
+
+	"darwin":
+	{
+		"platform"				: "macOS",
+		"platformCodename"		: "High Sierra",
+		"platformVersion"		: "10.13.3",
+		"compiler"				: "clang++",
+		"compilerVersion"		: "9.0.0",
+
+		"binaries":
+		{
+
+		}
+	},
+
+	"win32":
+	{
+		"platform"				: "Windows 7",
+		"platformVersion"		: "6.1.7601",
+		"compiler"				: "MSVC",
+		"compilerVersion"		: "14.0",
+
+		"binaries":
+		{
+
+		}
+	}
+}
