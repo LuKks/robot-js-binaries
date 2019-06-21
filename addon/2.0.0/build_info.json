@@ -71,14 +71,6 @@
 				"arm"			: "http://node.getrobot.net/addon/2.0.0/linux-arm-59.node",
 				"x64"			: "http://node.getrobot.net/addon/2.0.0/linux-x64-59.node",
 				"ia32"			: "http://node.getrobot.net/addon/2.0.0/linux-ia32-59.node"
-			},
-
-			"64":
-			{
-				"nodeVersion"	: "10.16.0",
-				"arm"			: "",
-				"x64"			: "https://github.com/LuKks/robot-js-binaries/raw/gh-pages/addon/2.0.0/linux-x64-64.node",
-				"ia32"		: ""
 			}
 		}
 	},
