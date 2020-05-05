@@ -19,9 +19,9 @@
 		{
 			"64":
 			{
-				"nodeVersion"	: "10.16.0",
+				"nodeVersion"	: "10.20.1",
 				"arm"			: "",
-				"x64"			: "https://github.com/LuKks/robot-js-binaries/raw/gh-pages/addon/2.0.0/linux-x64-64.node",
+				"x64"			: "https://github.com/LuKks/robot-js-binaries/raw/gh-pages/addon/2.1.0/linux-x64-64.node",
 				"ia32"		: ""
 			}
 		}
